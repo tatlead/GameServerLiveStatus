@@ -1,0 +1,15 @@
+name = "game-server-live-status-api"
+type = "javascript"
+
+account_id = "95be1f4d32426a2e7b725878fc422ad9"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-09-20"
+
+kv_namespaces = [
+  { binding = "SERVERS", preview_id = "acf94639c3404f0b9c903574a8ce3810", id = "2b421c329e864a06a957fbbf8b008625" }
+]
+
+[triggers]
+crons = ["*/2 * * * *"]
